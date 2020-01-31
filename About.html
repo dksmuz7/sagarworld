@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>About</title>
+		<link rel="stylesheet" href="SagarWorld.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class ="header-logo">
+					<a href="index.html"><img class="logo" src="images\Sagar World Logo.png"></a>
+				</div>
+
+				<div class="header-list">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html" onclick="scrollToLesson()">Lessons</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a onclick="openForm2()">Contact Us</a></li>
+						<li>
+							<a class="login-button" onclick="openForm()">Log In</a>
+							<div class="form-popup" id="login">
+							  <form class="form-container">
+							    <h1>Login</h1>
+
+							    <label for="email"><b>Username</b></label>
+							    <input type="text" placeholder="Enter Username" name="email" required>
+
+							    <label for="psw"><b>Password</b></label>
+							    <input type="password" placeholder="Enter Password" name="psw" required>
+
+							    <button type="submit" class="btn">Login</button>
+							    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+							  </form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="about">
+			<div class="heading">
+				<h1>About Us</h1>
+				<h3>This programm is launched in 2020 for the technical help.<h3>
+			</div>
+			<div class="bg-about">
+				<div class="contact-form" id="form2">
+					<form class="content">
+						<h3 class="section-title">Contact Us</h3>
+						<div class="content-item"><label>Name</label>
+						<input class="input" type="text" name="name" required></div>
+						<div class="content-item"><label>Email</label>
+						<input class="input" type="email" name="email" required></div>
+						<div class="content-item"><label>Mobile</label>
+						<input class="input" type="text" name="mobile"></div>
+						<div class="content-item"><label>Message</label>
+						<textarea type="textarea" name="message" required></textarea></div>
+						<button type="submit" class="btns">Send</button>
+						<button type="button" class="btnc" onclick="closeForm2()">Cancel</button>
+					</form>
+				</div>
+				<div class="right-part">
+					<ul>
+						<li>
+							<img src="images/cog-wheels-2125169.jpg">
+							<p>Here you can develop your hardware skills</p>
+						</li>
+						<li>
+							<img src="images/lunar-prospector-58070.jpg">
+							<p>You can learn new tecnology</p>
+						</li>
+						<li>
+							<img src="images/light-bulb-4514505.jpg">
+							<p>You can get tech related solution</p>
+						</li>
+						<li>
+							<img src="images/arduino.jpg">
+							<p>You can learn Arduino & Raspberry Pi</p>
+						</li>
+						<li>
+							<img src="images/1572406827.jpg">
+							<p>You can learn Robotics</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-title">
+				<h2>Sagar World</h2>
+				<p href="">Sagar Means Ocean</p>
+			</div>
+
+			<div class="social-link">
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/Sagar.muz"><img src="images/facebook.png" class="icon">Facebook</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/sagar.muz/"><img src="images/instagram.png" class="icon">Instagram</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/dksmuz7/"><img src="images/linkedin.png" class="icon">LinkedIn</a>
+					</li>
+				</ul>
+			</div>
+
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>

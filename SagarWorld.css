@@ -1,0 +1,280 @@
+body {
+	margin:0 auto;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+}
+
+header {
+	height:100px;
+	width:100%;
+	background-color:aqua;
+}
+
+.header-logo  img {
+	float:left;
+	height:80px;
+	width:80px;
+	margin:10px 10px 10px 20px;
+	transition: all 0.5s;
+}
+
+.header-list {
+	float:right;
+	padding:20px 30px;
+	transition: all 0.5s;
+	background-color: none;
+}
+
+.header-list li {
+	list-style:none;
+	float:left;
+	padding:0 10px;
+}
+
+.heading {
+	text-align:center;
+	padding-top: 10px;
+	margin-top:0;
+	letter-spacing:3px;
+}
+
+.top-wrapper {
+	padding-bottom: 20px;
+}
+
+main {
+	background-image:url(images/city-3213676_1920.jpg);
+	background-size:cover;
+	background-position:center;
+	height:1000px;
+}
+
+.lessons {
+	padding:40px;
+	position:absolute;
+	bottom:-470px;
+}
+
+.lessons img{
+	height:160px;
+	width:160px;
+	border:2px solid gray;
+	border-radius:10px;
+}
+
+.lessons li{
+	list-style:none;
+	padding-left:40px;
+	padding-right:40px;
+	color:red;
+	float:left;
+	width:150px;
+	text-align:center;
+}
+
+#lesson {
+	overflow:auto;
+}
+
+footer {
+	height:100px;
+	width:100%;
+	background-color:yellow;
+	color:black;
+}
+
+.footer-title p {
+	font-size:14px;
+}
+
+.footer-title {
+	float:left;
+	padding:20px 40px;
+	line-height:2px;
+}
+
+.social-link {
+	float:right;
+	padding-right:40px;
+}
+
+.social-link li {
+	list-style:none;
+	float:left;
+	padding:25px 10px;
+	display: inline-block;
+}
+
+.icon {
+	height:15px;
+	width:15px;
+	padding-right:5px;
+}
+
+.contact-form {
+	display:none;
+	position:absolute;
+	background-color:white;
+	height:410px;
+	width:510px;
+	color:black;
+	margin:-20px 410px;
+	border:none;
+	border-radius:10px;
+	text-align:left;
+	opacity:0.95;
+}
+
+.content {
+	padding:30px;
+	line-height:30px;
+	text-align:center;
+}
+
+.content-item {
+	padding:10px;
+}
+
+.btns {
+	padding:5px 15px;
+	margin-top:20px;
+	margin-left:110px;
+	letter-spacing:3px;
+	border-radius:5px;
+}
+.btns[type=submit]:focus,.btnc[type=button]:focus {
+	outline:none;
+}
+
+.btnc {
+	padding:5px 5px;
+	margin-top:20px;
+	margin-left:50px;
+	letter-spacing:3px;
+	border-radius:5px;
+}
+
+input[type=text]:focus,input[type=email]:focus,textarea[type=textarea]:focus {
+	background-color: #ddd;
+	outline:none;
+}
+
+.input {
+	float:right;
+	border:2px solid gray;
+	border-radius:5px;
+	height:35px;
+	width:300px;
+	padding:10px
+}
+
+textarea {
+	float:right;
+	border:2px solid gray;
+	border-radius:5px;
+	height:70px;
+	width:300px;
+	padding:10px
+}
+
+.login-button {
+  border: none;
+  cursor: pointer;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top:120px;
+  left:515px;
+  z-index: 9;
+  transition:10s;
+}
+
+.form-container {
+  max-width: 300px;
+  padding:10px 20px;
+  background-color:white;
+  opacity:0.97;
+  border:none;
+  border-radius:10px;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius:5px;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:15px;
+  opacity: 0.9;
+  border-radius:5px;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+.about {
+	background-image:url(images/space-911785_1920.jpg);
+	background-size:cover;
+	background-position:center;
+	height:550px;
+	color:white;
+	letter-spacing:3px;
+}
+
+.about h1{
+	margin-top:50px;
+}
+
+.right-part {
+	padding:40px;
+}
+
+.right-part img{
+	height:160px;
+	width:160px;
+	border:2px solid gray;
+	border-radius:10px;
+}
+
+.right-part li{
+	list-style:none;
+	padding-left:40px;
+	padding-right:40px;
+	color:red;
+	float:left;
+	width:150px;
+	text-align:center;
+}
