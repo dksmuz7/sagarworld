@@ -55,7 +55,7 @@ main {
 
 .lessons {
 	padding:40px;
-	position:relative;
+	position:fixed;
 	bottom:-570px;
 }
 
