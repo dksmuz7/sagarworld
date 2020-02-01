@@ -55,8 +55,8 @@ main {
 
 .lessons {
 	padding:40px;
-	position:fixed;
-	bottom:-570px;
+	position:relative;
+	bottom:-470px;
 }
 
 .lessons img{
